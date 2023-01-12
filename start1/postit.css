@@ -1,0 +1,191 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.lavagna {
+  background: #5e5e5e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 19px;
+}
+
+.task {
+  width: 254px;
+  height: 183px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  box-shadow: inset 0px -20px 12px 0px #17141400,
+    inset 1px -14px 12px 0px #2525257a;
+}
+p {
+  margin: 7px;
+}
+h3 {
+  font-size: larger;
+  font-weight: bold;
+}
+#uno {
+  background-color: #edeeb9;
+  transform: rotate(352deg);
+}
+#uno:hover {
+  animation: ruota 3s linear;
+  transform: rotate(352deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(352deg);
+  }
+  50% {
+    transform: rotate(357deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+#due {
+  background-color: #c2f0c3;
+  transform: rotate(6deg);
+}
+#due:hover {
+  animation: ruota 3s linear;
+  transform: rotate(6deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(6deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+#tre {
+  background-color: #bdbee3;
+  transform: rotate(353deg);
+}
+#tre:hover {
+  animation: ruota 3s linear;
+  transform: rotate(353deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(353deg);
+  }
+  50% {
+    transform: rotate(357deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#quattro {
+  background-color: #c2f0c3;
+  transform: rotate(9deg);
+}
+#quattro:hover {
+  animation: ruota 3s linear;
+  transform: rotate(9deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+#cinque {
+  background-color: #edeeb9;
+  transform: rotate(353deg);
+}
+#cinque:hover {
+  animation: ruota 3s linear;
+  transform: rotate(353deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(353deg);
+  }
+  50% {
+    transform: rotate(357deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+#sei {
+  background-color: #bdbee3;
+  transform: rotate(345deg);
+}
+#sei:hover {
+  animation: ruota 3s linear;
+  transform: rotate(354deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(354deg);
+  }
+  50% {
+    transform: rotate(358deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+#sette {
+  background-color: #edeeb9;
+  transform: rotate(353deg);
+}
+#sette:hover {
+  animation: ruota 3s linear;
+  transform: rotate(353deg);
+}
+@keyframes ruota {
+  from {
+    transform: rotate(353deg);
+  }
+  50% {
+    transform: rotate(357deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+#otto {
+  background-color: #c2f0c3;
+  transform: rotate(5deg);
+}
+#otto:hover {
+  animation: ruota 3s linear;
+  transform: rotate(5deg);
+  width: 254px;
+  height: 183px;
+}
+@keyframes ruota {
+  from {
+    transform: rotate(5deg) scaleX(1) scaleY(1);
+  }
+
+  to {
+    transform: rotate(0deg) scaleX(1.2) scaleY(1.2);
+  }
+}
